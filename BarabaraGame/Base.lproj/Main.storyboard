@@ -167,6 +167,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="rankingLabel1" destination="ju3-hd-Rh6" id="vHc-sv-II1"/>
+                        <outlet property="rankingLabel2" destination="ju3-hd-Rh6" id="9DX-8L-OEz"/>
+                        <outlet property="rankingLabel3" destination="ju3-hd-Rh6" id="NvB-Ds-oPR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="svn-rn-Uvw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
