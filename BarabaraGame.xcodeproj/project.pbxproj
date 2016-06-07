@@ -14,6 +14,10 @@
 		5EB053171D05AA7A003DAA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB053151D05AA7A003DAA61 /* LaunchScreen.storyboard */; };
 		5EB053221D05AA7A003DAA61 /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB053211D05AA7A003DAA61 /* BarabaraGameTests.swift */; };
 		5EB0532D1D05AA7A003DAA61 /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0532C1D05AA7A003DAA61 /* BarabaraGameUITests.swift */; };
+		5EB0533C1D05C942003DAA61 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0533A1D05C942003DAA61 /* bar.png */; };
+		5EB0533D1D05C942003DAA61 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0533B1D05C942003DAA61 /* tail.png */; };
+		5EB0533F1D06208F003DAA61 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0533E1D06208F003DAA61 /* GameViewController.swift */; };
+		5EB053411D0620C0003DAA61 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB053401D0620C0003DAA61 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		5EB053281D05AA7A003DAA61 /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB0532C1D05AA7A003DAA61 /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		5EB0532E1D05AA7A003DAA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB0533A1D05C942003DAA61 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		5EB0533B1D05C942003DAA61 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		5EB0533E1D06208F003DAA61 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5EB053401D0620C0003DAA61 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 		5EB053001D05AA7A003DAA61 = {
 			isa = PBXGroup;
 			children = (
+				5EB053401D0620C0003DAA61 /* RankingViewController.swift */,
+				5EB0533E1D06208F003DAA61 /* GameViewController.swift */,
+				5EB0533A1D05C942003DAA61 /* bar.png */,
+				5EB0533B1D05C942003DAA61 /* tail.png */,
 				5EB0530B1D05AA7A003DAA61 /* BarabaraGame */,
 				5EB053201D05AA7A003DAA61 /* BarabaraGameTests */,
 				5EB0532B1D05AA7A003DAA61 /* BarabaraGameUITests */,
@@ -233,8 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EB053171D05AA7A003DAA61 /* LaunchScreen.storyboard in Resources */,
+				5EB0533D1D05C942003DAA61 /* tail.png in Resources */,
 				5EB053141D05AA7A003DAA61 /* Assets.xcassets in Resources */,
 				5EB053121D05AA7A003DAA61 /* Main.storyboard in Resources */,
+				5EB0533C1D05C942003DAA61 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EB0530F1D05AA7A003DAA61 /* ViewController.swift in Sources */,
+				5EB0533F1D06208F003DAA61 /* GameViewController.swift in Sources */,
 				5EB0530D1D05AA7A003DAA61 /* AppDelegate.swift in Sources */,
+				5EB053411D0620C0003DAA61 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +501,7 @@
 				5EB053331D05AA7A003DAA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EB053341D05AA7A003DAA61 /* Build configuration list for PBXNativeTarget "BarabaraGameTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +510,7 @@
 				5EB053361D05AA7A003DAA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EB053371D05AA7A003DAA61 /* Build configuration list for PBXNativeTarget "BarabaraGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +519,7 @@
 				5EB053391D05AA7A003DAA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
