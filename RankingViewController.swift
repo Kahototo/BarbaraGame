@@ -18,7 +18,7 @@ class RankingViewController: UIViewController {
     
 
     override func viewDidLoad() {
-        
+        super.viewDidLoad()
         rankingLabel1.text = String(defaults.integerForKey("score1")) //"score1"というキーの値を取得して表示
         rankingLabel2.text = String(defaults.integerForKey("score2")) //"score2"というキーの値を取得して表示
         rankingLabel3.text = String(defaults.integerForKey("score3")) //"score3"というキーの値を取得して表示
